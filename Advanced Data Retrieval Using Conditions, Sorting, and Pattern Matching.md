@@ -3,6 +3,7 @@ SELECT ENAME, JOB, SAL FROM EMPLOYEE WHERE DEPTNO = 30 ORDER BY SAL DESC ;
 
 # 2. List job and Department Number of employees whose name are five letters long begin with “A” and end with “N”.
 SELECT ENAME, JOB, DEPTNO FROM EMPLOYEE WHERE ENAME LIKE 'A___N';
+![image alt](https://github.com/EpikTejas/DBMS-Employee-table/blob/0a80242bd311b027f3b86e683f2894f75e5f3a96/Screenshot%202026-02-25%20230316.png)
 
 # 3. Display the name of employees whose name start with alphabet S.
 SELECT ENAME FROM EMPLOYEE WHERE ENAME LIKE 'S%';
