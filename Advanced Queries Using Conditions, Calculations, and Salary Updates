@@ -3,6 +3,7 @@ SELECT * FROM EMPLOYEE WHERE HIREDATE < '1980-06-30' OR HIREDATE > '1981-12-31';
 
 # 2. Display the names of employees whose names have second alphabet A in their names.
 SELECT ENAME FROM EMPLOYEE WHERE ENAME LIKE '_A%';
+![image alt].(Screenshot 2026-02-25 230316.png).
 
 # 3. Display the names of employees whose name is exactly fivecharacters in length
 SELECT ENAME FROM EMPLOYEE WHERE ENAME LIKE '_____';
