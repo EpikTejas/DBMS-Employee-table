@@ -1,15 +1,24 @@
 # 1. List all employees and jobs in Department 30 in descending order by salary.
 SELECT ENAME, JOB, SAL FROM EMPLOYEE WHERE DEPTNO = 30 ORDER BY SAL DESC ;
 
+<img width="351" height="228" alt="image" src="https://github.com/user-attachments/assets/a6e6b53a-6797-487e-9d25-2d51e170ba04" />
+
 # 2. List job and Department Number of employees whose name are five letters long begin with “A” and end with “N”.
 SELECT ENAME, JOB, DEPTNO FROM EMPLOYEE WHERE ENAME LIKE 'A___N';
-![image alt](https://github.com/EpikTejas/DBMS-Employee-table/blob/0a80242bd311b027f3b86e683f2894f75e5f3a96/Screenshot%202026-02-25%20230316.png)
+
+<img width="359" height="117" alt="image" src="https://github.com/user-attachments/assets/2c9a3063-771d-40c1-a6d8-67bbaa021760" />
 
 # 3. Display the name of employees whose name start with alphabet S.
 SELECT ENAME FROM EMPLOYEE WHERE ENAME LIKE 'S%';
 
+<img width="115" height="141" alt="image" src="https://github.com/user-attachments/assets/6da9abef-7839-40d0-8f1c-d525771fe23e" />
+
+
 # 4. Display the names of employees whose name ends with alphabet S.
 SELECT ENAME FROM EMPLOYEE WHERE ENAME LIKE '%S';
+
+<img width="119" height="160" alt="image" src="https://github.com/user-attachments/assets/5f453330-b104-4cef-83ae-d4f66d537c30" />
+
 
 # 5. Display the names of employees working in department number 10 or 20 or 40 or employees working as clerks, salesman or analyst.
 SELECT * FROM EMPLOYEE WHERE DEPTNO IN(10,20,40) OR JOB IN ('CLERK', 'SALESMAN', 'ANALYST');
